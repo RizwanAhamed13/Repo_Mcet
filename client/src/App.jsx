@@ -3,14 +3,14 @@ import { Routes, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 // Import components
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import PrintJob from './pages/PrintJob';
-import ThankYou from './pages/ThankYou';
-import Tracking from './pages/Tracking';
-import Admin from './pages/Admin';
-import AdminLogin from './pages/AdminLogin';
-import NotFound from './pages/NotFound';
+import Navbar from './components/Navbar.jsx';
+import Home from './pages/Home.jsx';
+import PrintJob from './pages/PrintJob.jsx';
+import ThankYou from './pages/ThankYou.jsx';
+import Tracking from './pages/Tracking.jsx';
+import Admin from './pages/Admin.jsx';
+import AdminLogin from './pages/AdminLogin.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 // Import contexts
 import { useAuth } from './context/AuthContext';

@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import App from './App.jsx';
-import { AuthProvider } from './context/AuthContext';
-import { PrintJobProvider } from './context/PrintJobContext';
+import { AuthProvider } from './context/AuthContext.jsx';
+import { PrintJobProvider } from './context/PrintJobContext.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root')).render(
 // 
